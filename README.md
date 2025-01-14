@@ -40,7 +40,7 @@ https://hackmd.io/@buttercantfly/B1C9V-pIJx
     ```
 
 #### sudo ./configure
-![image](https://github.com/user-attachments/assets/ad7d9162-f68f-4289-a0b4-22391a8cdd5e)
+![image](https://github.com/user-attachments/assets/ad7d9162-f68f-4289-a0b4-22391a8cdd5e|=50%x)
 
 
 ### 開始執行
