@@ -5,7 +5,7 @@ https://hackmd.io/@buttercantfly/B1C9V-pIJx
 架設完成後，即可透過手機上的網路電話軟體，如 Linphone 進行連接與網路通話，詳細設定請參考文章內容。
 
 
-### Installation Guide
+## Installation Guide
 1. 更新系統
     ```bash!
     sudo apt update && sudo apt upgrade
@@ -39,7 +39,7 @@ https://hackmd.io/@buttercantfly/B1C9V-pIJx
     sudo ldconfig
     ```
     
-### 開始執行
+### Start Asterisk Server
 ```
 sudo systemctl start asterisk
 ```
@@ -52,7 +52,7 @@ sudo ufw allow 5060/udp
 
 進入 server CLI 介面
 ```
-sudo asterisk -rvv (or -vvvr ?)
+sudo asterisk -rvv
 ```
 ![image](https://github.com/user-attachments/assets/69fbb6af-2c47-4328-8efa-519073b52447)
 
@@ -62,7 +62,7 @@ sudo asterisk -rvv (or -vvvr ?)
 ![image](https://github.com/user-attachments/assets/08f01767-ad3c-4f19-83f8-124e9dc5a004)
 詳細的參數設定請自行閱讀 Default 中的原始參數檔案。
 
-## Internet Phone Call Test
+### Internet Phone Call Test
 
 1. 下載任意網路通話程式，以 Linphone 為例：
 2. 進入設定
