@@ -40,7 +40,7 @@ https://hackmd.io/@buttercantfly/B1C9V-pIJx
     ```
 
 #### sudo ./configure
-![image](https://github.com/user-attachments/assets/ad7d9162-f68f-4289-a0b4-22391a8cdd5e|=50%x)
+![image](https://github.com/user-attachments/assets/ad7d9162-f68f-4289-a0b4-22391a8cdd5e)
 
 
 ### 開始執行
@@ -69,11 +69,8 @@ sudo asterisk -rvv (or -vvvr ?)
 ## Internet Phone Call Test
 
 1. 下載任意網路通話程式，以 Linphone 為例：
-    ![image](https://github.com/user-attachments/assets/71a9894b-265e-4aad-8117-02c5e3b97adf)
 2. 進入設定
-    ![image](https://github.com/user-attachments/assets/0a1cdcd6-70b4-47af-accd-cbf9ab74689a)
 3. 輸入 server IP（在網域/ Domain欄位），以及前面在 `pjsip.conf` 內所設定的帳號密碼
-    ![image](https://github.com/user-attachments/assets/8692ae01-cc1c-431d-a101-cae67c2969ba =50%x)
 4. 輸入 `7001` 即可進行通話（需要有另一台手機作為另一個用戶端）
 
 
