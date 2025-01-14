@@ -38,11 +38,7 @@ https://hackmd.io/@buttercantfly/B1C9V-pIJx
     sudo make config
     sudo ldconfig
     ```
-
-#### sudo ./configure
-![image](https://github.com/user-attachments/assets/ad7d9162-f68f-4289-a0b4-22391a8cdd5e)
-
-
+    
 ### 開始執行
 ```
 sudo systemctl start asterisk
