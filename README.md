@@ -40,7 +40,7 @@ https://hackmd.io/@buttercantfly/B1C9V-pIJx
     ```
 
 #### sudo ./configure
-![image](https://hackmd.io/_uploads/r1va_UMPke.png =60%x)
+![image](https://github.com/user-attachments/assets/ad7d9162-f68f-4289-a0b4-22391a8cdd5e)
 
 
 ### 開始執行
@@ -58,23 +58,22 @@ sudo ufw allow 5060/udp
 ```
 sudo asterisk -rvv (or -vvvr ?)
 ```
-![image](https://hackmd.io/_uploads/ryqy4PzDJl.png)
+![image](https://github.com/user-attachments/assets/69fbb6af-2c47-4328-8efa-519073b52447)
+
 
 ### Configuration File Settings
-![image](https://hackmd.io/_uploads/HJAR4PfwJl.png)
-
-請依照 github 中的檔案修改上圖中的三個檔案：
-https://github.com/buttercantfly/Asterisk-VoIP
-
+請依照 repository 中的檔案修改下圖中的三個檔案：
+![image](https://github.com/user-attachments/assets/08f01767-ad3c-4f19-83f8-124e9dc5a004)
+詳細的參數設定請自行閱讀 Default 中的原始參數檔案。
 
 ## Internet Phone Call Test
 
 1. 下載任意網路通話程式，以 Linphone 為例：
-    ![appstore](https://hackmd.io/_uploads/B1vHacmDkl.jpg =50%x)
+    ![image](https://github.com/user-attachments/assets/71a9894b-265e-4aad-8117-02c5e3b97adf)
 2. 進入設定
-    ![setting](https://hackmd.io/_uploads/By8uT9XPye.png =50%x)
+    ![image](https://github.com/user-attachments/assets/0a1cdcd6-70b4-47af-accd-cbf9ab74689a)
 3. 輸入 server IP（在網域/ Domain欄位），以及前面在 `pjsip.conf` 內所設定的帳號密碼
-    ![user](https://hackmd.io/_uploads/BJMoa97P1g.png =50%x)
+    ![image](https://github.com/user-attachments/assets/8692ae01-cc1c-431d-a101-cae67c2969ba =50%x)
 4. 輸入 `7001` 即可進行通話（需要有另一台手機作為另一個用戶端）
 
 
@@ -90,8 +89,7 @@ https://github.com/buttercantfly/Asterisk-VoIP
     * 端口：5060
     * 動作：允許連接。
 - 同樣，創建一條**輸出規則**。
-    ![image](https://hackmd.io/_uploads/Hk5z0qXvyg.png)
-
+    ![image](https://github.com/user-attachments/assets/b51f3939-e700-407d-998c-f20a479f87f9)
 
 ### 確保只有一個 Asterisk 實例在運行
 執行以下命令檢查是否有多個 Asterisk 進程在運行，否則會導致資料庫更新異常：
