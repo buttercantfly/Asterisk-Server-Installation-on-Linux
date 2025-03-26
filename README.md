@@ -1,4 +1,6 @@
-此 repository 旨在 Linux 上快速架設 SIP VoIP Server，主要檔案皆為參數檔，詳細的安裝流程請參考 hackmd 文章：
+# Asterisk Server Installation on Ubuntu
+
+此 repository 旨在 Linux (Ubuntu) 上快速架設 SIP VoIP Server (Asterisk)，主要檔案皆為參數檔，詳細的安裝流程請參考 hackmd 文章：
 
 https://hackmd.io/@buttercantfly/B1C9V-pIJx
 
